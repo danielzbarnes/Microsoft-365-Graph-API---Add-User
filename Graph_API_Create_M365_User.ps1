@@ -16,7 +16,7 @@
         -assign groups
         -assign authentication phone number
         -assign M365 license
-  .NOTES
+
       By default Microsoft Entra ID Service Principals authentication tokens are valid for only one hour.
       This script automatically refreshes the token when run if the Powershel ISE remains open.
   
@@ -39,6 +39,12 @@
               Los Angeles
           ### M365 Teams/Groups/Distribution Lists
               Engineering Team, CNC Group, etc
+        
+  .NOTES
+      Version:        4.1.5
+      Author:         Daniel Barnes
+      Creation Date:  November 26, 2024
+      Purpose/Change: Initial script deployment
 #>
 
 # User details object
